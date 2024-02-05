@@ -1,12 +1,10 @@
-# Rest Project + TypeScript
+# Queue App
 
-Este proyecto previamente inicializado tiene todo lo necesario para trabajar con TypeScript, Express y Rest.
+This is a simple queue app that allows users to create queues and join them. It is built with Node.js and Express.js for the backend and HTML, CSS and JavaScript for the frontend. The intention of this project is to learn and practice the use of websockets and queues.
 
-Cada paso de su configuración ya se ha realizado previamente en el curso, por lo que solo es necesario clonar el proyecto y comenzar a trabajar.
+## Installation
 
-## Instalación
-
-1. Clonar .env.template a .env y configurar las variables de entorno
-2. Ejecutar `npm install` para instalar las dependencias
-3. En caso de necesitar base de datos, configurar el docker-compose.yml y ejecutar `docker-compose up -d` para levantar los servicios deseados.
-4. Ejecutar `npm run dev` para levantar el proyecto en modo desarrollo
+1. Clone the repository and navigate to the project folder.
+2. Run `npm install` to install the dependencies.
+3. In case you need a database, configure the docker-compose.yml and run `docker-compose up -d` to start the desired services.
+4. Run `npm run dev` to start the server.
